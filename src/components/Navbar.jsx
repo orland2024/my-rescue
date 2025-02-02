@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/Image/logo.png'
 
+
 export default function Navbar() {
   return (
     <>
@@ -9,11 +10,11 @@ export default function Navbar() {
             <div>
                 <img src={logo} alt="" />
             </div>
-            <p className='font-bold'>Aerovision</p>
+            <p className='font-bold mt-3'>Aerovision</p>
         </div>
         <div className='font-bold flex gap-4'>
             <div>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-4 mt-3'>
                     <li>Home</li>
                     <li>About me</li>
                     <li>Services</li>
@@ -26,6 +27,7 @@ export default function Navbar() {
             </button>
         </div>
       </nav>
+      
     </>
   )
 }
