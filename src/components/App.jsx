@@ -1,6 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Log from '../assets/Image/Log.png'
+import JQ from '../assets/Image/JQ.png'
+import WP from '../assets/Image/WP.png'
+import LS from '../assets/Image/LS.png'
+import SAS from '../assets/Image/SAS.png'
+import logoS3 from '../assets/Image/logoS3.png'
+
 
 export default function App() {
   return (
@@ -28,6 +34,23 @@ export default function App() {
           <img src={Log} alt="" />
         </div>
       </article>
+      <article className='px-10 py-10 bg-green-700 flex justify-between'>
+        <img src={JQ} alt="" />
+        <img src={WP} alt="" />
+        <img src={LS} alt="" />
+        <img src={SAS} alt="" />
+      </article>
+      <article>
+        <div>
+          <img src={logoS3} alt="" />
+        </div>
+        <div>
+          <h2 className='font-bold text-blue-700'>About Me</h2>
+          <h1 className='text-6xls'> <strong className='text-blue-700'></strong>20 Year’s Experience on Product Design</h1>
+          <p>Hello there! I'm Robert Junior. I specialize in web design anddevelopment, and I'm deeply passionate and committed to my craft.With 20 years of experience as a professional graphic designe</p>
+        </div>
+      </article>
     </section>
   )
 }
+  
