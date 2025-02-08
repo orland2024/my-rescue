@@ -34,7 +34,7 @@ export default function App() {
           <img src={Log} alt="" />
         </div>
       </article>
-      <article className='px-10 py-10 bg-grey-700 flex justify-between'>
+      <article className='px-10 py-10 bg-gray-300 flex justify-between'>
         <img src={JQ} alt="" />
         <img src={WP} alt="" />
         <img src={LS} alt="" />
@@ -45,12 +45,14 @@ export default function App() {
           <img src={logoS3} alt="" />
         </div>
         <div>
-          <h2 className='font-bold text-blue-700'>About Me</h2>
-          <h1 className='text-6xls'> <strong className='text-blue-700'></strong>20 Year’s Experience on Product Design</h1>
-          <p>Hello there! I'm Robert Junior. I specialize in web design anddevelopment, and I'm deeply passionate and committed to my craft.With 20 years of experience as a professional graphic designe</p>
-          <button>Main skills</button>
-          <button>Awards</button>
-          <button>Education</button>
+          <h2 className='font-bold text-blue-800 text-lg pb-3'>About Me</h2>
+          <h1 className='text-4xl font-bold pb-3'><strong className='text-blue-800'>20 Year’s Experience</strong> <br /> On Product Design</h1>
+          <p className='pb-6'>Hello there! I'm Robert Junior. I specialize in web design and development and <br /> I'm deeply passionate and committed to my craft. <br />With 20 years of experience as a professional graphic designe</p>
+          <div className='flex gap-4'>
+          <button className='bg-blue-700 rounded-full w-36 h-8 p-3 text-white font-bold pt-1'>Main skills</button>
+          <button className='rounded-full border-2 border-indigo-600 w-36 h-8 font-bold'>Awards</button>
+          <button className='rounded-full border-2 border-indigo-600 w-36 h-8 font-bold'>Education</button>
+          </div>
         </div>
       </article>
     </section>
