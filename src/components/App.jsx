@@ -34,7 +34,7 @@ export default function App() {
           <img src={Log} alt="" />
         </div>
       </article>
-      <article className='px-10 py-10 bg-green-700 flex justify-between'>
+      <article className='px-10 py-10 bg-grey-700 flex justify-between'>
         <img src={JQ} alt="" />
         <img src={WP} alt="" />
         <img src={LS} alt="" />
@@ -48,6 +48,9 @@ export default function App() {
           <h2 className='font-bold text-blue-700'>About Me</h2>
           <h1 className='text-6xls'> <strong className='text-blue-700'></strong>20 Year’s Experience on Product Design</h1>
           <p>Hello there! I'm Robert Junior. I specialize in web design anddevelopment, and I'm deeply passionate and committed to my craft.With 20 years of experience as a professional graphic designe</p>
+          <button>Main skills</button>
+          <button>Awards</button>
+          <button>Education</button>
         </div>
       </article>
     </section>
