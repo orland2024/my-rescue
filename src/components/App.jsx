@@ -40,7 +40,7 @@ export default function App() {
         <img src={LS} alt="" />
         <img src={SAS} alt="" />
       </article>
-      <article>
+      <article className='px-10 py-10 flex justify-between'>
         <div>
           <img src={logoS3} alt="" />
         </div>
@@ -48,10 +48,24 @@ export default function App() {
           <h2 className='font-bold text-blue-800 text-lg pb-3'>About Me</h2>
           <h1 className='text-4xl font-bold pb-3'><strong className='text-blue-800'>20 Year’s Experience</strong> <br /> On Product Design</h1>
           <p className='pb-6'>Hello there! I'm Robert Junior. I specialize in web design and development and <br /> I'm deeply passionate and committed to my craft. <br />With 20 years of experience as a professional graphic designe</p>
-          <div className='flex gap-4'>
+          <div className='flex gap-4 '>
           <button className='bg-blue-700 rounded-full w-36 h-8 p-3 text-white font-bold pt-1'>Main skills</button>
           <button className='rounded-full border-2 border-indigo-600 w-36 h-8 font-bold'>Awards</button>
           <button className='rounded-full border-2 border-indigo-600 w-36 h-8 font-bold'>Education</button>
+          </div>
+          <div className='pt-8'>  
+            <p className='font-bold'>User Experience Design - UI/UX</p>
+            <div className='bg-gray-300 w-96 h-8 rounded-full'>
+              <div className='bg-blue-500 w-80 h-8 rounded-full'></div>
+              </div>
+            <p className='font-bold'>Web & User Interface Design - Development</p>
+            <div className='bg-gray-300 w-96 h-8 rounded-full'>
+              <div className='bg-blue-500 w-80 h-8 rounded-full'></div>
+            </div>
+            <p className='font-bold'>Interaction Design - Animation</p>
+            <div className='bg-gray-300 w-96 h-8 rounded-full'>
+              <div className='bg-blue-500 w-80 h-8 rounded-full'></div>
+            </div>
           </div>
         </div>
       </article>
