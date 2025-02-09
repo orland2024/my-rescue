@@ -6,6 +6,7 @@ import WP from '../assets/Image/WP.png'
 import LS from '../assets/Image/LS.png'
 import SAS from '../assets/Image/SAS.png'
 import logoS3 from '../assets/Image/logoS3.png'
+import photo from '../assets/Image/photo.svg'
 
 
 export default function App() {
@@ -68,6 +69,36 @@ export default function App() {
             </div>
           </div>
         </div>
+      </article>
+      <article>
+        <div>
+          <h1 className='text-2xl font-bold text-blue-700 text-center mb-4'>Services</h1>
+          <h1 className='text-4xl font-bold text-center mb-4'>Exploring My Design <strong className='text-blue-600'>Skills</strong></h1>
+          <p className='text-center'>We transform your ideas into a distinctive web project that both inspires <br />
+          you and captivates your customers</p>
+        </div>
+        
+        <div className='px-10 py-10 flex gap-2'>
+          <div>
+          <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
+          <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
+          </div>
+         <div className='bg-blue-500 h-[300px] w-96 px-5 py-5'>
+          <img src={photo} alt="" />
+          <h1 className='text-2xl text-white font-bold'>Website / App Design UX / UI Design</h1>
+          <p className='text-white'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
+         </div>
+         <div className='border-2 h-[300px] w-96 px-5 py-5'>
+          <img src={photo} alt="" />
+          <h1 className='text-2xl text-blue-700 font-bold'>Website / App Design UX / UI Design</h1>
+          <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
+         </div>
+         <div className='border-2 h-[300px] w-96 px-5 py-5'>
+          <img src={photo} alt="" />
+          <h1 className='text-2xl text-blue-700 font-bold'>Website / App Design UX / UI Design</h1>
+          <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
+         </div>
+         </div>
       </article>
     </section>
   )
