@@ -71,7 +71,7 @@ export default function App() {
         </div>
       </article>
       <article>
-        <div>
+        <div className='mb-10'>
           <h1 className='text-2xl font-bold text-blue-700 text-center mb-4'>Services</h1>
           <h1 className='text-4xl font-bold text-center mb-4'>Exploring My Design <strong className='text-blue-600'>Skills</strong></h1>
           <p className='text-center'>We transform your ideas into a distinctive web project that both inspires <br />
@@ -79,7 +79,7 @@ export default function App() {
         </div>
         
         <div className='px-10 py-10 flex gap-2'>
-          <div>
+          <div className='pb-10'>
           <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
           <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
           </div>
@@ -98,6 +98,16 @@ export default function App() {
           <h1 className='text-2xl text-blue-700 font-bold'>Website / App Design UX / UI Design</h1>
           <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
          </div>
+         </div>
+         <div className='bg-blue-700'>
+          <h1 className='text-white font-bold text-lg text-center'>Our Milestones</h1>
+          <h1 className='text-white font-bold text-2xl text-center'>What sets our studio apartfor you projects?</h1>
+          <div className='flex justify-between'>
+          <div className='bg-white w-44 h-28 border-2'>8000+ <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-28 border-2' >100% <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-28 border-2'>3.5K <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-28 border-2'>240+ <br />figma ipsum component variant main layer.Hand.</div>
+          </div>
          </div>
       </article>
     </section>
