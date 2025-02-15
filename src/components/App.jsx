@@ -13,8 +13,12 @@ export default function App() {
   return (
     <section>
       <div>
+        {/*CONSTRUCTION DE LA NAVBAR*/}
       <Navbar/>
       </div>
+
+      {/*PREMIERE SECTION*/}
+
       <article className='px-10 py-10 flex justify-between'>
         <div>
           <h1 className='font-bold'>Welcome to my Portfolio <br /> <br /> </h1>
@@ -32,18 +36,24 @@ export default function App() {
           </div>
         </div>
         <div>
-          <img src={Log} alt="" />
+          <img className='h-[500px]' src={Log} alt="" />
         </div>
       </article>
+
+      {/*DEUXIEME SECTION*/}
+
       <article className='px-10 py-10 bg-gray-300 flex justify-between'>
         <img src={JQ} alt="" />
         <img src={WP} alt="" />
         <img src={LS} alt="" />
         <img src={SAS} alt="" />
       </article>
+
+      {/*TROISIEME SECTION*/}
+
       <article className='px-10 py-10 flex justify-between'>
         <div>
-          <img src={logoS3} alt="" />
+          <img className='h-[500px]' src={logoS3} alt="" />
         </div>
         <div>
           <h2 className='font-bold text-blue-800 text-lg pb-3'>About Me</h2>
@@ -70,6 +80,9 @@ export default function App() {
           </div>
         </div>
       </article>
+
+      {/*QUATRIEME SECTION*/}
+
       <article>
         <div className='mb-10'>
           <h1 className='text-2xl font-bold text-blue-700 text-center mb-4'>Services</h1>
@@ -110,6 +123,9 @@ export default function App() {
           </div>
          </div>
       </article>
+
+      {/*CINQUIEME SECTION*/}
+
     </section>
   )
 }
