@@ -83,30 +83,33 @@ export default function App() {
 
       {/*QUATRIEME SECTION*/}
 
-      <article>
-        <div className='mb-10'>
+      <article className='px-10 py-10'>
+        <div className='mb-5'>
+          <div>
           <h1 className='text-2xl font-bold text-blue-700 text-center mb-4'>Services</h1>
           <h1 className='text-4xl font-bold text-center mb-4'>Exploring My Design <strong className='text-blue-600'>Skills</strong></h1>
           <p className='text-center'>We transform your ideas into a distinctive web project that both inspires <br />
           you and captivates your customers</p>
-        </div>
-        
-        <div className='px-10 py-10 flex gap-2'>
-          <div className='pb-10'>
+          </div>
+          <div className='mt-5 flex justify-end gap-2'>
           <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
           <button className='bg-blue-600 rounded-full w-5 h-5 '></button>
           </div>
-         <div className='bg-blue-500 h-[300px] w-96 px-5 py-5'>
+        </div>
+        
+        <div className='mb-10 flex gap-2'>
+          
+         <div className='bg-blue-500 h-[300px] w-[475px] px-5 py-5'>
           <img src={photo} alt="" />
           <h1 className='text-2xl text-white font-bold'>Website / App Design UX / UI Design</h1>
           <p className='text-white'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
          </div>
-         <div className='border-2 h-[300px] w-96 px-5 py-5'>
+         <div className='border-2 h-[300px] w-[475px] px-5 py-5'>
           <img src={photo} alt="" />
           <h1 className='text-2xl text-blue-700 font-bold'>Website / App Design UX / UI Design</h1>
           <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
          </div>
-         <div className='border-2 h-[300px] w-96 px-5 py-5'>
+         <div className='border-2 h-[300px] w-[475px] px-5 py-5'>
           <img src={photo} alt="" />
           <h1 className='text-2xl text-blue-700 font-bold'>Website / App Design UX / UI Design</h1>
           <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
@@ -116,10 +119,10 @@ export default function App() {
           <h1 className='text-white font-bold text-lg text-center'>Our Milestones</h1>
           <h1 className='text-white font-bold text-2xl text-center'>What sets our studio apartfor you projects?</h1>
           <div className='flex justify-between'>
-          <div className='bg-white w-44 h-28 border-2'>8000+ <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-28 border-2' >100% <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-28 border-2'>3.5K <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-28 border-2'>240+ <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-24 border-2'>8000+ <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-24 border-2' >100% <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-24 border-2'>3.5K <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-44 h-24 border-2'>240+ <br />figma ipsum component variant main layer.Hand.</div>
           </div>
          </div>
       </article>
