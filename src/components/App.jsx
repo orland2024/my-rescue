@@ -137,6 +137,7 @@ export default function App() {
       </article>
 
       {/*CINQUIEME SECTION*/}
+
       <article className='px-10 py-10'>
         <div className='font-bold text-center'>
           <h3 className='text-blue-800 text-xl mb-5'>Our projects</h3>
@@ -163,23 +164,43 @@ export default function App() {
       </article>
 
       {/*SIXIEME SECTION*/}
+      
       <article className='px-10 py-10'>
         <div className='text-center font-bold'>
           <h6 className='text-xl text-blue-800'>Testimonials</h6>
           <h1 className='text-3xl'>The Trust From Clients</h1>
-          <div className='flex justify-center gap-2'>
-            <button className='bg-blue-700 rounded-full w-5 h-5'></button>
-            <button className='bg-blue-700 rounded-full w-5 h-5'></button>
+          <div className='flex justify-center gap-2 mb-5'>
+            <button className='bg-blue-500 rounded-full w-6 h-6'></button>
+            <button className='bg-blue-500 rounded-full w-6 h-6'></button>
           </div>
         </div>
-        <div>
-        <div className='bg-white border-2 w-72 justify-center items-center p-10 >
-          <img src={logoS5} alt="" /> 
-          <p>Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> Savannah Nguyen <br /> President of Sales</p>
+        <div className="flex gap-3">
+        <div className='bg-white border-2 w-80 h-[450px] px-5 py-5'>
+          <img className='mt-10 ml-10' src={logoS5} alt="" /> 
+          <p className="">Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> <span className='font-bold'>Savannah Nguyen</span> <br /> President of Sales</p>
+        </div>
+        <div className='bg-white border-2 w-80 h-[450px] px-5 py-5'>
+          <img className='mt-10 ml-10' src={logoS5} alt="" /> 
+          <p className="">Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> <span className='font-bold'>Savannah Nguyen</span> <br /> President of Sales</p>
+        </div>
+        <div className='bg-white border-2 w-80 h-[450px] px-5 py-5'>
+          <img className='mt-10 ml-10' src={logoS5} alt="" /> 
+          <p className="">Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> <span className='font-bold'>Savannah Nguyen</span> <br /> President of Sales</p>
+        </div>
+        <div className='bg-white border-2 w-80 h-[450px] px-5 py-5'>
+          <img className='mt-10 ml-10' src={logoS5} alt="" /> 
+          <p className="">Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> <span className='font-bold'>Savannah Nguyen</span> <br /> President of Sales</p>
         </div>
         </div>
-      </article>   
+      </article>
+      
+      {/*SEPTIEME SECTION*/} 
 
+      <article>
+      <div>
+        
+      </div>
+      </article>
     </section>
   )
 }
