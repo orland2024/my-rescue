@@ -196,9 +196,18 @@ export default function App() {
       
       {/*SEPTIEME SECTION*/} 
 
-      <article>
+     <article className='bg-blue-700 w-[1500px] h-[600px] text-center px-10 py-10'>
+      <div className='font-bold text-white'>
+        <h1 className='text-xl'>contact me</h1>
+        <h1 className='text-4xl'>Request Free Consultancy</h1>
+      </div>
       <div>
-        
+        <div className='bg-white border-2 w-1/4 h-64 text-black'>
+            <p></p>
+        </div>
+        <div>
+
+        </div>
       </div>
       </article>
     </section>
