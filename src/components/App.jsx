@@ -7,6 +7,13 @@ import LS from '../assets/Image/LS.png'
 import SAS from '../assets/Image/SAS.png'
 import logoS3 from '../assets/Image/logoS3.png'
 import photo from '../assets/Image/photo.svg'
+import preview1 from '../assets/Image/preview1.png'
+import preview2 from '../assets/Image/preview2.png'
+import preview3 from '../assets/Image/preview3.png'
+import preview4 from '../assets/Image/preview4.png'
+import preview5 from '../assets/Image/preview5.png'
+import preview6 from '../assets/Image/preview6.png'
+import logoS5 from '../assets/Image/logoS5.png'
 
 
 export default function App() {
@@ -115,19 +122,63 @@ export default function App() {
           <p className='text-blue-700'>Creating Engaging Digital Experiences <br />for Websites and Apps through UX/UI <br />Design brlearn more</p>
          </div>
          </div>
-         <div className='bg-blue-700'>
+         <div className='bg-blue-700 h-[300px] pt-5'>
+          <div>
           <h1 className='text-white font-bold text-lg text-center'>Our Milestones</h1>
-          <h1 className='text-white font-bold text-2xl text-center'>What sets our studio apartfor you projects?</h1>
-          <div className='flex justify-between'>
-          <div className='bg-white w-44 h-24 border-2'>8000+ <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-24 border-2' >100% <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-24 border-2'>3.5K <br />figma ipsum component variant main layer.Hand.</div>
-          <div className='bg-white w-44 h-24 border-2'>240+ <br />figma ipsum component variant main layer.Hand.</div>
+          <h1 className='text-white font-bold text-4xl text-center'>What sets our studio apart <br />for you projects?</h1>
+          </div>
+          <div className='flex justify-between px-20 py-8'>
+          <div className='bg-white w-48 h-24 border-2 text-center'><span className='font-bold text-lg'>8000+</span> <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-48 h-24 border-2 text-center' ><span className='font-bold text-lg'>100%</span> <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-48 h-24 border-2 text-center'><span className='font-bold text-lg'>3.5K</span> <br />figma ipsum component variant main layer.Hand.</div>
+          <div className='bg-white w-48 h-24 border-2 text-center'><span className='font-bold text-lg'>240+</span> <br />figma ipsum component variant main layer.Hand.</div>
           </div>
          </div>
       </article>
 
       {/*CINQUIEME SECTION*/}
+      <article className='px-10 py-10'>
+        <div className='font-bold text-center'>
+          <h3 className='text-blue-800 text-xl mb-5'>Our projects</h3>
+          <h1 className='text-3xl mb-5'>Presenting My Design <br /> Portfolio and Case Studies</h1>
+          <div className='flex gap-2 justify-center mb-10'> 
+            <button className='bg-blue-600 w-32 h-12 rounded-full text-white'>ALL</button>
+            <button className='bg-white rounded-full border-2 border-blue-600 w-32 h-12'>UI/UX Design</button>
+            <button className='bg-white rounded-full border-2 border-blue-600 w-36 h-12'>Branding design</button>
+            <button className='bg-white rounded-full border-2 border-blue-600 w-32 h-12'>Wordpress</button>
+          </div>
+        </div>
+          <div>
+            <div className='flex gap-5 mb-5'>
+              <img src={preview1} alt="" />
+              <img src={preview2} alt="" />
+              <img src={preview3} alt="" />
+            </div>
+            <div className='flex gap-5'>
+              <img src={preview4} alt="" />
+              <img src={preview5} alt="" />
+              <img src={preview6} alt="" />
+            </div>
+          </div>
+      </article>
+
+      {/*SIXIEME SECTION*/}
+      <article className='px-10 py-10'>
+        <div className='text-center font-bold'>
+          <h6 className='text-xl text-blue-800'>Testimonials</h6>
+          <h1 className='text-3xl'>The Trust From Clients</h1>
+          <div className='flex justify-center gap-2'>
+            <button className='bg-blue-700 rounded-full w-5 h-5'></button>
+            <button className='bg-blue-700 rounded-full w-5 h-5'></button>
+          </div>
+        </div>
+        <div>
+        <div className='bg-white border-2 w-72 justify-center items-center p-10 >
+          <img src={logoS5} alt="" /> 
+          <p>Lorem ipsum dolor sit amet <br /> consectetur.Nibh porttitor <br /> aliquet tellus eget egestas <br /> .Enim ultrices dictumst tortor in <br /> eget neque vestibulum potenti <br /> tempus <br /> Savannah Nguyen <br /> President of Sales</p>
+        </div>
+        </div>
+      </article>   
 
     </section>
   )
