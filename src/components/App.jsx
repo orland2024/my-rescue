@@ -14,6 +14,7 @@ import preview4 from '../assets/Image/preview4.png'
 import preview5 from '../assets/Image/preview5.png'
 import preview6 from '../assets/Image/preview6.png'
 import logoS5 from '../assets/Image/logoS5.png'
+import logo from '../assets/Image/logo.png'
 
 
 export default function App() {
@@ -197,29 +198,32 @@ export default function App() {
       {/*SEPTIEME SECTION*/} 
 
      <article className='bg-blue-700 w-[1500px] h-[600px] text-center px-10 py-10'>
-      <div className='font-bold text-white'>
+      <div className='font-bold text-white mb-10'>
         <h1 className='text-xl'>contact me</h1>
         <h1 className='text-4xl'>Request Free Consultancy</h1>
       </div>
-      <div className='flex gap-2'>
+      <div className='flex gap-2 justify-center'>
         <div className='bg-white border-2 w-1/4 h-64 text-black text-left p-5'>
             <p><span className='font-bold'>Hotline 24/7</span><br /><span className='font-bold'>(+23) 5535 68 68</span><br /><span className='font-bold'>Address</span>:2972 Westheimer Rd. 
             Santa Ana, Illinois 85486 <br /><span className='font-bold'>Email</span> :nevaeh.simmons@example.com  <br />
             <span className='font-bold'>Fax</span> : (702) 555-0122 <br /><span className='font-bold'>Work Hour</span>: Mon - Sat: 9:00 - 18:00 </p>
         </div>
-        <div className='w-1/4 h-64 border-2'>
-        <div className='flex gap-2 text-left mb-5'>
+        <div className='w-1/4 h-64'>
+        <div className='flex gap-2 text-left mb-3'>
           <div className='bg-white w-32 border-2'>Name*</div>
           <div className='bg-white w-64 border-2'>Email Address*</div>
         </div>
-        <div className='bg-white w-4/4 mb-5 text-left'>How can we help you?</div>
-        <div className='text-left bg-white mb-5'>How can we help you? <br /><br /><br /></div> 
-        <button className='bg-white w-3 h-3'></button>
+        <div className='bg-white w-4/4 mb-3 text-left'>How can we help you?</div>
+        <div className='text-left bg-white'>How can we help you? <br /><br /><br /></div> 
+        <button className='bg-white w-3 h-3 '></button>
         <p className='text-left'>By submitting, i’m agreed to the Terms & Conditons</p>
-        <button className='text-white text-sm font-bold border-2 w-32 rounded-full'>Request Now</button>
-
+        <button className='text-white text-sm font-bold border-2 w-52 rounded-full'>Request Now</button>
         </div>
       </div>
+      <div className='flex justify-center mt-32'>
+          <div><img src={logo} alt="" /></div>
+          <div><p>AeroVision© Copyright 2023. All Rights Reserved</p></div>
+        </div>
       </article>
     </section>
   )
