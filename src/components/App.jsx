@@ -27,7 +27,7 @@ export default function App() {
 
       {/*PREMIERE SECTION*/}
 
-      <article className='px-10 py-10 flex justify-between'>
+      <article className='flex col md:flex row lg:flex row xl:flex row 2xl: flex row px-10 py-10 flex justify-between'>
         <div>
           <h1 className='font-bold'>Welcome to my Portfolio <br /> <br /> </h1>
           <div className='font-medium text-6xl'>
