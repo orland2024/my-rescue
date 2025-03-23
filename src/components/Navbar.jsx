@@ -14,7 +14,7 @@ export default function Navbar() {
         </div>
         <div className='font-bold flex gap-4'>
             <div>
-                <ul className='flex gap-4 mt-3'>
+                <ul className='hidden md:flex flex gap-4 mt-3'>
                     <li>Home</li>
                     <li>About me</li>
                     <li>Services</li>
