@@ -5,7 +5,7 @@ import logo from '../assets/Image/logo.png'
 export default function Navbar() {
   return (
     <>
-      <nav className='flex py-10 px-10 justify-between'>
+      <nav className='py-10 px-10 justify-between flex md:flex-col lg:flex-col xl:flex-col 2xl:flex-col'>
         <div className='flex gap-2'>
             <div>
                 <img src={logo} alt="" />
